@@ -13,7 +13,7 @@ typedef struct DataS{
 }DataS;
 
 
-/**  sortujScalaj(void *arg)
+/**  scalaj(int tab[], int lewy, int srodek, int prawy)
  * Funkcja dokonuje rekurencyjnego podzialu tablicy na dwie czesci
  * Pierwsza czesc jest tablica tab[l..srodek]
  * Druga czesc jest tablica tab[srodek+1..r]
@@ -159,7 +159,6 @@ void generujTab(int *tab, int rozmiar)
 
 int main()
 {
-    //int tab[] = { 2, 1, 5 };
     	int tab[TABLE_MAX_LENGTH] = {0};
 	generujTab(tab, TABLE_MAX_LENGTH);
 	int tab_size = sizeof(tab) / sizeof(tab[0]);
