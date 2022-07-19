@@ -14,7 +14,7 @@ typedef struct DataS{
 
 
 /**  scalaj(int tab[], int lewy, int srodek, int prawy)
- * Funkcja dokonuje rekurencyjnego podzialu tablicy na dwie czesci
+ * Funkcja dokonuje scalania podzielonych cześci tablicyi sortowania ich
  * Pierwsza czesc jest tablica tab[l..srodek]
  * Druga czesc jest tablica tab[srodek+1..r]
  *
